@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    height: 80px;
+    background-color:rgba(250, 247, 247, 0.493);
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.logo1{
+    width:40%
+}
+.nav-logo{
+    height: 40px;
+   width: 100px;
+}
+.logo{
+    height:50px;
+    background-image: url(fit_logo.webp);
+    background-size: cover;
+    width: 90%;
+}
+content{
+    font-size: 1rem;
+    font-weight: 500;
+    color: black;
+}
+.border{
+    border:1.5px solid transparent;
+}
+.border:hover{
+    border:2px solid black;
+}
+.hero-section{
+    height: 750px;
+    width: 1550px;
+    background-image: url(pic1.png);
+    background-size:cover;
+    animation: slider 20s infinite linear;
+   
+}
+@keyframes slider{
+    30%{background-image: url(fit2.jpg);}
+    75%{background-image: url(fit3.webp);}
+}
+.nav-quotes{
+    font-size: 3.1rem;
+    font-weight: bolder;
+    color:yellow;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 40px;
+   
+}
+
+.nav-button{
+    font-size: 2rem;
+    font-weight: 700;
+    color: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 305px;
+}
+button{
+    color:#cccccc;
+    background-color: red;
+    border: none;
+}
+button:hover{
+   background-color: green;
+}
+.end{
+    font-size: 0.9rem;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    color: yellow;
+    
+}
